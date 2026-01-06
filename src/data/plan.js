@@ -48,17 +48,18 @@ export const PLAN = {
           },
           "lunch": {
             "nina": "Wrap frío: pollo escurrido (poca salsa) + arroz. Fruta aparte.",
-            "adulto": "Bowl recalentado: arroz + pollo glaseado + verduras + frijoles."
+            "adulto": "Bowl para micro: arroz + pollo glaseado + verduras + frijoles."
           },
           "cena": {
-            "titulo": "Ligera (cuando llegas)",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos del pollo glaseado (porción pequeña)",
-              "Quesadillas rápidas + lechuga",
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Quesadillas rápidas",
               "Yogur + fruta"
             ]
           },
-          "notas": "Costco-friendly: usa pollo en paquete, tomate en lata y verduras fáciles. Para lunch de la niña: evitar mucha salsa líquida."
+          "notas": "Tip Costco: usa pollo en paquete, tomate en lata y verduras fáciles. Para lunch de la escuela: evitar mucha salsa líquida."
         },
         {
           "id": "s1-mar",
@@ -101,11 +102,12 @@ export const PLAN = {
             "adulto": "Pasta recalentada: porción grande (comida fuerte)."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos de pasta (porción pequeña)",
-              "Pan + huevo si faltó proteína",
-              "Lechuga con aceite de oliva + fruta"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Sandwich simple (si no quieres pasta otra vez)",
+              "Yogur + fruta"
             ]
           },
           "notas": "Pasta fría funciona bien para escuela. Para el niño de 1 año: corta pasta y verduras en trozos pequeños."
@@ -143,18 +145,19 @@ export const PLAN = {
             ]
           },
           "lunch": {
-            "nina": "Frío: pollo + cubos de papa. Opcional: sandwich de pollo. Fruta.",
-            "adulto": "Recalentar: plato completo (pollo + papa/zanahoria) con arroz."
+            "nina": "Opción fría: pollo + cubos de papa. Opcional: sandwich de pollo. Fruta.",
+            "adulto": "Para micro: plato completo (pollo + papa/zanahoria) con arroz."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos de horno (porción pequeña)",
-              "Quesadillas + lechuga",
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Ensalada rápida de lechuga con aceite de oliva",
               "Yogur + fruta"
             ]
           },
-          "notas": "Horno = menos trabajo activo. Para lunch niña: excelente frío."
+          "notas": "Horno = menos trabajo activo. Para lunch escuela: excelente frío."
         },
         {
           "id": "s1-jue",
@@ -189,17 +192,18 @@ export const PLAN = {
           },
           "lunch": {
             "nina": "Bowl frío: arroz + pollo + frijoles (poca salsa). Sin lechuga dentro. Fruta.",
-            "adulto": "Bowl recalentado completo."
+            "adulto": "Bowl para micro completo."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos tipo bowl (porción pequeña)",
-              "Ensalada de lechuga + pollo (sin frijoles si ya se usaron)",
-              "Pan + yogur"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Quesadillas rápidas",
+              "Yogur + fruta"
             ]
           },
-          "notas": "Frijoles en lata: enjuagar reduce sodio. Lunch niña: formato seco (sin líquido)."
+          "notas": "Frijoles en lata: enjuagar reduce sodio. Lunch escuela: formato seco (sin líquido)."
         },
         {
           "id": "s1-vie",
@@ -237,11 +241,12 @@ export const PLAN = {
             "adulto": "Arroz + pollo recalentado (porción grande)."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Quesadillas",
-              "Restos (porción pequeña)",
-              "Ensalada de lechuga"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Quesadillas rápidas",
+              "Yogur + fruta"
             ]
           },
           "notas": "Esta salsa es más dulce. Si prefieren menos dulce, baja la miel a 1 cda y agrega más tomate/agua."
@@ -281,14 +286,15 @@ export const PLAN = {
             "adulto": "Lentejas recalentadas (comida fuerte)."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos de lentejas (pequeña porción)",
-              "Pan + yogur",
-              "Fruta"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Pan tostado + queso crema (o pan con mantequilla)",
+              "Yogur + fruta"
             ]
           },
-          "notas": "Lentejas = día económico y nutritivo. Si la niña necesita lunch, mejor sandwich/wrap simple."
+          "notas": "Lentejas = día económico y nutritivo. Si la escuela necesita lunch, mejor sandwich/wrap simple."
         },
         {
           "id": "s1-dom",
@@ -320,14 +326,15 @@ export const PLAN = {
           },
           "lunch": {
             "nina": "Wrap frío o sandwich: pollo simple + un poco de arroz. Fruta.",
-            "adulto": "Plato recalentado o bowl completo."
+            "adulto": "Plato para micro o bowl completo."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Ensalada de lechuga + pollo",
-              "Yogur + fruta",
-              "Quesadillas"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Quesadillas rápidas",
+              "Yogur + fruta"
             ]
           },
           "notas": "Pollo simple = reset. Muy fácil para lunch frío."
@@ -381,18 +388,19 @@ export const PLAN = {
             ]
           },
           "lunch": {
-            "nina": "Frío: pollo + papa en cubos (sin salsa extra). Fruta.",
-            "adulto": "Recalentar: plato completo con arroz."
+            "nina": "Opción fría: pollo + papa en cubos (sin salsa extra). Fruta.",
+            "adulto": "Para micro: plato completo con arroz."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos (porción pequeña)",
-              "Ensalada de lechuga + pollo",
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Ensalada rápida de lechuga con aceite de oliva",
               "Yogur + fruta"
             ]
           },
-          "notas": "Opción de horno: cero estrés. Lunch niña: perfecto frío."
+          "notas": "Opción de horno: cero estrés. Lunch escuela: perfecto frío."
         },
         {
           "id": "s2-mar",
@@ -433,11 +441,12 @@ export const PLAN = {
             "adulto": "Pasta recalentada (comida fuerte)."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos de pasta (pequeño)",
-              "Lechuga + aceite de oliva",
-              "Pan + yogur"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Sandwich simple (si no quieres pasta otra vez)",
+              "Yogur + fruta"
             ]
           },
           "notas": "Varía del día cremoso: sabor tomate suave. Buena opción para lunch frío."
@@ -475,14 +484,15 @@ export const PLAN = {
             ]
           },
           "lunch": {
-            "nina": "Frío: pollo + papa (evitar exceso de tomate líquido). Fruta.",
-            "adulto": "Recalentar: arroz + pollo + tomate."
+            "nina": "Opción fría: pollo + papa (evitar exceso de tomate líquido). Fruta.",
+            "adulto": "Para micro: arroz + pollo + tomate."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos (pequeño)",
-              "Quesadillas",
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Ensalada rápida de lechuga con aceite de oliva",
               "Yogur + fruta"
             ]
           },
@@ -521,13 +531,14 @@ export const PLAN = {
           },
           "lunch": {
             "nina": "Bowl frío de arroz con pollo (sin exceso de líquido). Fruta.",
-            "adulto": "Bowl recalentado (porción grande)."
+            "adulto": "Bowl para micro (porción grande)."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos del arroz (pequeño)",
-              "Ensalada de lechuga",
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Quesadillas rápidas",
               "Yogur + fruta"
             ]
           },
@@ -564,14 +575,15 @@ export const PLAN = {
             ]
           },
           "lunch": {
-            "nina": "Frío: sandwich de pollo o pollo + papa. Fruta.",
-            "adulto": "Recalentar: plato completo."
+            "nina": "Opción fría: sandwich de pollo o pollo + papa. Fruta.",
+            "adulto": "Para micro: plato completo."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Quesadillas",
-              "Restos (pequeño)",
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Ensalada rápida de lechuga con aceite de oliva",
               "Yogur + fruta"
             ]
           },
@@ -612,11 +624,12 @@ export const PLAN = {
             "adulto": "Lentejas recalentadas."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Restos (pequeño)",
-              "Pan + yogur",
-              "Fruta"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Pan tostado + queso crema (o pan con mantequilla)",
+              "Yogur + fruta"
             ]
           },
           "notas": "Día económico + nutritivo. Ideal para descanso de pollo."
@@ -651,14 +664,15 @@ export const PLAN = {
           },
           "lunch": {
             "nina": "Wrap frío/sandwich con pollo deshebrado. Fruta.",
-            "adulto": "Plato recalentado o bowl."
+            "adulto": "Plato para micro o bowl."
           },
           "cena": {
-            "titulo": "Ligera",
+            "titulo": "Cena (rápida)",
             "opciones": [
-              "Ensalada + pollo",
-              "Yogur + fruta",
-              "Quesadillas"
+              "Restos de la comida (porción pequeña)",
+              "Tacos rápidos: tortilla + lo que sobró + lechuga",
+              "Quesadillas rápidas",
+              "Yogur + fruta"
             ]
           },
           "notas": "Día reset y muy práctico para lunch frío."

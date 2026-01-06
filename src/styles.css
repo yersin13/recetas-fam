@@ -312,3 +312,5 @@ ul.bullets{
   background: rgba(225,29,72,0.06);
   color: #7a0b22;
 }
+
+.tabs, .tab { pointer-events: auto; }

@@ -105,14 +105,14 @@ export default function App() {
           <h1>Recetas Familia — 2 semanas</h1>
           <p>
             Menú práctico para 2 adultos + 3 niños (7, 3, 1).<br/>
-            Lunch niña <b>sin recalentar</b>, lunch adulto <b>con recalentado</b>. Sin puerco. Costco-friendly.
+            Lunch de escuela pensado para comerse frío y lunch de trabajo pensado para micro. Sin puerco. Costco-friendly.
           </p>
         </div>
         <div className="chips">
-          <div className="chip"><span className="dot"></span> 1 día = 1 cocinada</div>
-          <div className="chip"><span className="dot green"></span> Lunch niña sin micro</div>
-          <div className="chip"><span className="dot"></span> Lunch adulto comida fuerte</div>
-        </div>
+  <div className="chip"><span className="dot"></span> 2 semanas listas</div>
+  <div className="chip"><span className="dot green"></span> Pensado para celular</div>
+</div>
+</div>
       </div>
 
       <div className="panel">
@@ -178,9 +178,9 @@ export default function App() {
             </ol>
 
             <div className="note">
-              <b>Lunch (sin micro / con micro)</b><br/>
-              • Niña: {day.lunch.nina}<br/>
-              • Adulto: {day.lunch.adulto}
+              <b>Lunch</b><br/>
+              • Escuela: {day.lunch.nina}<br/>
+              • Trabajo: {day.lunch.adulto}
             </div>
 
             <h3>Cena (ligera)</h3>
@@ -188,14 +188,7 @@ export default function App() {
               {day.cena.opciones.map((o, idx) => <li key={idx}>{o}</li>)}
             </ul>
 
-            <p className="footer">
-              <span className="badge">Costco-friendly</span>{" "}
-              <span className="badge">Sin puerco</span>{" "}
-              <span className="badge">Familiar</span>{" "}
-              {day.notas?.includes("⚠") ? <span className="badge warn">Nota</span> : null}
-              <br/>
-              {day.notas}
-            </p>
+            <p className="footer">{day.notas}</p>
           </div>
 
           <div className="card">
@@ -215,10 +208,10 @@ export default function App() {
               {week.rotacionDesayuno.map((x, idx) => <li key={idx}>{x}</li>)}
             </ul>
 
-            <h3>Reglas de lunch</h3>
+            <h3>Lunch (guía rápida)</h3>
             <ul className="bullets">
-              <li><b>Niña (sin micro):</b> wraps, sandwiches, pasta fría, bowl de arroz frío sin mucha salsa.</li>
-              <li><b>Adulto (con micro):</b> bowl completo (arroz + pollo + frijoles + verdura), guisos, pasta con salsa.</li>
+              <li><b>Escuela (frío):</b> wraps, sandwiches, pasta fría, bowl de arroz frío sin mucha salsa.</li>
+              <li><b>Trabajo (micro):</b> bowl completo (arroz + pollo + frijoles + verdura), guisos, pasta con salsa.</li>
             </ul>
 
             <h3>Lista de compras (resumen)</h3>
