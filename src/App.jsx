@@ -113,8 +113,6 @@ export default function App() {
   <div className="chip"><span className="dot green"></span> Pensado para celular</div>
 </div>
 </div>
-      </div>
-
       <div className="panel">
         <div className="toolbar">
           <div className="tabs">
